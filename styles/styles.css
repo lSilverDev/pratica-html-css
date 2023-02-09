@@ -25,15 +25,27 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.box{
+    margin: 0 6em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .container__title{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__img{
+    margin: 1em 0 2em 0;
 }
 
 .main{
     background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
 }
 
 .aluraPlusbtn{
@@ -43,6 +55,8 @@ body{
     padding: 16px;
     gap: 16px;
     display: block;
+    margin-bottom: 1em;
+    width: 90%;
 }
 
 .aluraBtn{
@@ -53,6 +67,8 @@ body{
     gap: 16px;
     border: 2px solid var(--main-white);
     display: block;
+    margin-bottom: 1em;
+    width: 90%;
 }
 
 .textP{
