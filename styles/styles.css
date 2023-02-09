@@ -3,6 +3,7 @@
     --sec--grey: #C0C0C0;
     --button-blue: #167BF7;
     --desk-background: #00030C;
+    --main-font: 'Inter';
 }
 
 *{
@@ -13,12 +14,20 @@
 body{
     background-color: var(--desk-background);
     color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.container__title{
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .main{
@@ -48,4 +57,5 @@ body{
 
 .textP{
     color: var(--sec--grey);
+    font-size:12px;
 }
