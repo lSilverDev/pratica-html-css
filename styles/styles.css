@@ -56,7 +56,6 @@ body{
     gap: 16px;
     display: block;
     margin-bottom: 1em;
-    width: 90%;
 }
 
 .aluraBtn{
@@ -68,7 +67,6 @@ body{
     border: 2px solid var(--main-white);
     display: block;
     margin-bottom: 1em;
-    width: 90%;
 }
 
 .textP{
@@ -93,4 +91,43 @@ body{
 
 .desc__text{
     color: var(--sec--grey);
+}
+
+.thr{
+    margin: 0 10em;
+    align-items: center;
+}
+
+.thr__img{
+    width: 80%;
+}
+
+.sec__btn{
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.fourth__img{
+    width: 80%;
+}
+
+.fourth{
+    margin: 0 10em;
+    align-items: center;
+}
+
+.devices{
+    text-align: center;
+}
+
+.container_fifth{
+    display: grid;
+    justify-items: center;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
