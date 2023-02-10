@@ -130,4 +130,14 @@ body{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 5em 0;
+}
+
+.devides__text{
+    font-size: 48px;
+}
+
+.devides__titulo{
+    font-size: 32px;
+    color: var(--main-white);
 }
