@@ -75,3 +75,22 @@ body{
     color: var(--sec--grey);
     font-size:12px;
 }
+
+.sec{
+    margin: 0 10em;
+    align-items: center;
+}
+
+.sec__img{
+    width: 80%;
+}
+
+.desc__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.desc__text{
+    color: var(--sec--grey);
+}
